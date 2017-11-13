@@ -1,0 +1,15 @@
+{
+  "name": "martinek",
+  "version": "0.1.0",
+  "devDependencies": {
+    "bootstrap": "^3.3.7",
+    "grunt": "^0.4.5",
+    "grunt-contrib-cssmin": "latest",
+    "grunt-contrib-jshint": "latest",
+    "grunt-contrib-less": "latest",
+    "grunt-contrib-nodeunit": "~0.4.1",
+    "grunt-contrib-uglify": "~0.5.0",
+    "grunt-contrib-watch": "latest",
+    "jshint-stylish": "latest"
+  }
+}
