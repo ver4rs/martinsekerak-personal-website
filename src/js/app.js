@@ -78,9 +78,6 @@ $(window).scroll(function () {
             'transform' : 'translate(0px,' + wScroll / 25 + '%)'
         })
     }
-    console.log(wScroll + ' ' + size + ' ' + a);
-
-
 
 
     //  Parallel scrolling website
@@ -88,7 +85,4 @@ $(window).scroll(function () {
 
 
     //albumsPopup() - I changed architecture for popup
-
-
-
 });
