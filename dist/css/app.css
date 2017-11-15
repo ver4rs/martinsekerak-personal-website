@@ -396,6 +396,9 @@ h4 {
   .header .logo .logo-img-active {
     display: inline-block;
   }
+  .header .logo h1 {
+    color: #111111 !important;
+  }
   /* Navbar Nav */
   .header .nav-item-child {
     color: #515769;
@@ -633,20 +636,20 @@ h4 {
   color: #111111;
   cursor: pointer;
 }
-.albums-grid .album .image-popup .image-caption p#title {
+.albums-grid .album .image-popup .image-caption p.title {
   margin-bottom: 0;
   transform: translate(0px, -15px);
   transition: all 0.6s ease-out;
   letter-spacing: 2px;
   font-size: 28px;
 }
-.albums-grid .album .image-popup .image-caption p#text {
+.albums-grid .album .image-popup .image-caption p.text {
   font-size: 16px;
   margin-bottom: 10px;
   transform: translate(0px, -20px);
   transition: all 0.6s ease-out;
 }
-.albums-grid .album .image-popup .image-caption p#link {
+.albums-grid .album .image-popup .image-caption p.link {
   transform: translate(0px, 30px);
   transition: all 0.5s ease-out;
 }
@@ -655,11 +658,11 @@ h4 {
   visibility: visible;
   transition: opacity 0.5s ease-out;
 }
-.albums-grid .album:hover .image-popup .image-caption p#link,
-.albums-grid .album:hover .image-popup .image-caption p#title {
+.albums-grid .album:hover .image-popup .image-caption p.link,
+.albums-grid .album:hover .image-popup .image-caption p.title {
   transform: translate(0px, 0px);
 }
-.albums-grid .album:hover .image-popup .image-caption p#text {
+.albums-grid .album:hover .image-popup .image-caption p.text {
   transform: translate(0px, 0px);
 }
 .albums-grid .album .popup-overlay {
