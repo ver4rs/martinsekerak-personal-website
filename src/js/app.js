@@ -52,10 +52,12 @@ $(window).scroll(function () {
         $('.header button').addClass('navbar-toogle-scroll');
         $('.logo').addClass('logo-scroll');
         $('.nav').addClass('nav-scroll');
+        $('.header h1').addClass('black-color');
     } else {
         $('.header button').removeClass('navbar-toogle-scroll');
         $('.logo').removeClass('logo-scroll');
         $('.nav').removeClass('nav-scroll');
+        $('.header h1').removeClass('black-color');
     }
 
 
