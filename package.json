@@ -2,7 +2,7 @@
   "name": "martinek",
   "version": "0.1.0",
   "devDependencies": {
-    "bootstrap": "^3.3.7",
+    "bootstrap": "~4.1.2",
     "grunt": "^0.4.5",
     "grunt-contrib-cssmin": "latest",
     "grunt-contrib-jshint": "latest",
