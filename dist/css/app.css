@@ -871,7 +871,7 @@ a#resume:hover {
   font-size: 12px;
   margin-left: 46px;
   margin-top: -20px;
-  color: #a6a7aa;
+  color: #a6a7aa !important;
 }
 .social-reference#github a {
   color: #24292e;
@@ -881,6 +881,9 @@ a#resume:hover {
 }
 .social-reference#resum a {
   color: #6F3596;
+}
+.social-reference#write-me a {
+  color: #ff414c;
 }
 .social-reference:hover a,
 .social-reference:hover a i {
@@ -892,22 +895,28 @@ a#resume:hover {
   transform: scale(1);
 }
 .social-reference:hover#github {
-  background: #24292e;
+  background: #24292e !important;
 }
 .social-reference:hover#github .more {
   background: #3a424b;
 }
 .social-reference:hover#linkedin {
-  background: #0084bf;
+  background: #0084bf !important;
 }
 .social-reference:hover#linkedin .more {
   background: #00a7f2;
 }
 .social-reference:hover#resum {
-  background: #6F3596;
+  background: #6F3596 !important;
 }
 .social-reference:hover#resum .more {
   background: #8b42bc;
+}
+.social-reference:hover#write-me {
+  background: #ff414c !important;
+}
+.social-reference:hover#write-me .more {
+  background: #ff747c;
 }
 .social-reference .more {
   position: absolute;
@@ -930,4 +939,13 @@ a#resume:hover {
   text-transform: uppercase;
   font-size: 10px;
   cursor: pointer;
+}
+.social-reference.social-background-revert {
+  background: transparent !important;
+}
+.social-reference.social-background-revert a {
+  color: #FFFFFF !important;
+}
+.social-reference.social-background-revert a span {
+  color: #dadbdc !important;
 }

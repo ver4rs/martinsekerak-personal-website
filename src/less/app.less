@@ -536,6 +536,7 @@ a#resume {
 	margin-bottom: 15px;
 	background: @section-silver;
 
+
 	a {
 		color: @primary-color;
 		letter-spacing: 1px;
@@ -553,7 +554,7 @@ a#resume {
 			font-size: 12px;
 			margin-left: 46px;
 			margin-top: -20px;
-			color: @fourth-color;
+			color: @fourth-color !important;
 		}
 
 	}
@@ -570,6 +571,10 @@ a#resume {
 	&#resum a {
 		color: @resume-color;
 	}
+	
+	&#write-me a {
+		color: @write-me-color;
+	}
 
 	&:hover {
 		a, a i {
@@ -583,23 +588,30 @@ a#resume {
 		}
 
 		&#github {
-			background: @github-color;
+			background: @github-color !important;
 			.more {
 				background: lighten(@github-color, 10%);
 			}
 		}
 
 		&#linkedin {
-			background: @linkedin-color;
+			background: @linkedin-color !important;
 			.more {
 				background: lighten(@linkedin-color, 10%);
 			}
 		}
 
 		&#resum {
-			background: @resume-color;
+			background: @resume-color !important;
 			.more {
 				background: lighten(@resume-color, 10%);
+			}
+		}
+		
+		&#write-me {
+			background: @write-me-color !important;
+			.more {
+				background: lighten(@write-me-color, 10%);
 			}
 		}
 	}
@@ -626,6 +638,17 @@ a#resume {
 			text-transform: uppercase;
 			font-size: 10px;
 			cursor: pointer;
+		}
+	}
+
+	&.social-background-revert {
+		background: transparent !important;
+		a {
+			color: @white !important;
+			
+			span {
+				color: lighten(@fourth-color, 20%) !important;
+			}
 		}
 	}
 }
